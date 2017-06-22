@@ -1,4 +1,4 @@
-# Bootstrap4::Tableexpanderjs::Rails
+# bootstrap4-tableexpanderjs-rails
 
 Hey there!
 This gem sets up a sweet, little and customizable CoffeeScript that let's you collapse and expand your Bootstrap4 HTML5 tables.
@@ -21,9 +21,9 @@ Or install it yourself as:
 
 ## Usage
 
+add this line to `app/assets/javascripts/application.js` right before `//= require_tree .`
+
 ``` JavaScript
-// add this line to app/assets/javascripts/application.js
-// right before "//= require_tree ."
 //= require bootstrap4-tableexpanderjs-rails
 ```
 
